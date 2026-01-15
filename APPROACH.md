@@ -338,3 +338,6 @@ python run_quick_validation.py
 
 ---
 
+**Status**: In Progress - Hindi QA training running
+**Last Updated**: Current timestamp
+**Next Check**: After Hindi QA training completes, run evaluation
