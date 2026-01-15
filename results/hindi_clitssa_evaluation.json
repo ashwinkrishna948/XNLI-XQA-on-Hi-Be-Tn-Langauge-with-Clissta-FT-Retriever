@@ -1,0 +1,59 @@
+{
+  "config": {
+    "languages": [
+      "hi"
+    ],
+    "tasks": [
+      "xnli",
+      "qa"
+    ],
+    "n_samples": 100,
+    "k": 3
+  },
+  "evaluations": [
+    {
+      "model": "base_model",
+      "language": "hi",
+      "task": "xnli",
+      "n_samples": 100,
+      "k": 3,
+      "mean_score": 0.4451830404003461,
+      "std_score": 0.0702813878187609,
+      "min_score": 0.3138326108455658,
+      "max_score": 0.619797945022583
+    },
+    {
+      "model": "base_model",
+      "language": "hi",
+      "task": "qa",
+      "n_samples": 100,
+      "k": 3,
+      "mean_score": 0.40839306205511094,
+      "std_score": 0.024746374814409996,
+      "min_score": 0.35934334993362427,
+      "max_score": 0.5211941003799438
+    },
+    {
+      "model": "clitssa_hi_xnli",
+      "language": "hi",
+      "task": "xnli",
+      "n_samples": 100,
+      "k": 3,
+      "mean_score": 0.7486676217118899,
+      "std_score": 0.1625976907398695,
+      "min_score": 0.29615822434425354,
+      "max_score": 0.9178354740142822
+    },
+    {
+      "model": "clitssa_hi_qa",
+      "language": "hi",
+      "task": "qa",
+      "n_samples": 100,
+      "k": 3,
+      "mean_score": 0.5243918966750304,
+      "std_score": 0.19860867322023057,
+      "min_score": -0.03134328871965408,
+      "max_score": 0.9325716495513916
+    }
+  ]
+}

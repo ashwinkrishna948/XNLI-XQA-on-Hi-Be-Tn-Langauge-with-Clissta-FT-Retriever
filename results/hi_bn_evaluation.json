@@ -1,0 +1,104 @@
+{
+  "config": {
+    "languages": [
+      "hi",
+      "bn"
+    ],
+    "tasks": [
+      "xnli",
+      "qa"
+    ],
+    "n_samples": 50,
+    "k": 3
+  },
+  "evaluations": [
+    {
+      "model": "base_model",
+      "language": "hi",
+      "task": "xnli",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.4302028558651606,
+      "std_score": 0.07040697391850852,
+      "min_score": 0.29454320669174194,
+      "max_score": 0.5965417623519897
+    },
+    {
+      "model": "base_model",
+      "language": "hi",
+      "task": "qa",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.4079061730702718,
+      "std_score": 0.02506650215121309,
+      "min_score": 0.30852729082107544,
+      "max_score": 0.5199158191680908
+    },
+    {
+      "model": "base_model",
+      "language": "bn",
+      "task": "xnli",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.39632595419883726,
+      "std_score": 0.06166965634374116,
+      "min_score": 0.2873347997665405,
+      "max_score": 0.5722453594207764
+    },
+    {
+      "model": "base_model",
+      "language": "bn",
+      "task": "qa",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.3737112828095754,
+      "std_score": 0.02414025978702541,
+      "min_score": 0.3227202594280243,
+      "max_score": 0.43667498230934143
+    },
+    {
+      "model": "clitssa_hi_xnli",
+      "language": "hi",
+      "task": "xnli",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.7710753134886423,
+      "std_score": 0.1314979765964054,
+      "min_score": 0.3507853150367737,
+      "max_score": 0.9268031120300293
+    },
+    {
+      "model": "clitssa_hi_qa",
+      "language": "hi",
+      "task": "qa",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.6060334419210752,
+      "std_score": 0.1927749221282519,
+      "min_score": 0.12230126559734344,
+      "max_score": 0.9244970083236694
+    },
+    {
+      "model": "clitssa_bn_xnli",
+      "language": "bn",
+      "task": "xnli",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.7205505955219269,
+      "std_score": 0.11750293732782821,
+      "min_score": 0.3211272954940796,
+      "max_score": 0.9229780435562134
+    },
+    {
+      "model": "clitssa_bn_qa",
+      "language": "bn",
+      "task": "qa",
+      "n_samples": 50,
+      "k": 3,
+      "mean_score": 0.5451568291833003,
+      "std_score": 0.2692217663764009,
+      "min_score": 0.040444545447826385,
+      "max_score": 0.9449740648269653
+    }
+  ]
+}
